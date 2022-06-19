@@ -1,8 +1,8 @@
 from datetime import datetime
 from sys import version_info
-from time import time
-
-from config import (
+من  وقت  الاستيراد  _
+ه
+من  استيراد التكوين  (
     ALIVE_IMG,
     ALIVE_NAME,
     BOT_NAME,
@@ -102,7 +102,7 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("قناة البوت", url=f"https://t.me/QII_ll"),
+                InlineKeyboardButton ( "قناة البوت" ، url = f "https://t.me/X_8_00" ) ،
                 InlineKeyboardButton(
                     "مطور السورس", url=f"https://t.me/N_J_9"
                 ),
@@ -129,7 +129,7 @@ async def src(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("قناة البوت", url=f"https://t.me/QII_ll"),
+                InlineKeyboardButton ( "قناة البوت" ، url = f "https://t.me/X_8_00" ) ،
                 InlineKeyboardButton(
                     "مطور السورس", url=f"https://t.me/N_J_9"
                 ),
